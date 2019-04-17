@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvbussiness"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:text="Business"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Entertainment"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvhealth"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Health"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvscience"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Science"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvsports"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Sports"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tvtech"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="Technology"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
